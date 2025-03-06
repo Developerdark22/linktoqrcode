@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Concert QR Code Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling/lib/qr-code-styling.js"></script>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <section class="hero-section">
+        <div class="hero">
+        <h1>welcome </h1>
+        <p>specially created for BABASAHEB DAWANGE</p>
+        <div class="buttons">
+            <button class="button btn-primary">Get Started</button>
+            <button class="button btn-secondary">Learn More</button>
+        </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h1>Free Concert QR Code Generator</h1>
+        <input type="text" id="concertLink" placeholder="Enter concert link here">
+        <button onclick="generateQR()">Generate QR Code</button>
+        <div id="qrCode"></div>
+        <button id="downloadBtn" onclick="downloadQR()">Download QR Code</button>
+    </div>
+    <img src="/hero.jpg" alt="Hero Image" class="hero-image">
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling/lib/qr-code-styling.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
